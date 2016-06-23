@@ -1,5 +1,5 @@
 <?php
-    require_once("application/db.php")
+    require_once("application/db.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
