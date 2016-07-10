@@ -65,3 +65,31 @@
             }
         }
     }
+    function save_data($data = null, $table_name = null, $db = null)
+    {
+        if(is_null($data) || is_null($table_name) || is_null($data))
+        {
+            return false;
+        }
+        else
+        {
+            $query = $db->insert($table_name, $data);
+            if(is_numeric($query))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+    }
+    /* returns time */
+    function return_time()
+    {
+        if(function_exists('date_default_timezone_set'))
+        {
+            date_default_timezone_set('Asia/Kolkata');
+        }
+        return date('Y-m-d H:i:s a');
+    }
