@@ -14,3 +14,7 @@
     define('USER_GENDER_MALE', 1);
     define('USER_GENDER_FEMALE', 2);
     define('USER_GENDER_NOT_DEFINED', 0);
+
+    /* email related constants */
+    define('EMAIL_PASSWORD', 'YourPassword');
+    define('EMAIL_FROM_ADDRESS', 'logiyoutech@gmail.com');

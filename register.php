@@ -1,6 +1,8 @@
 <?php
     require_once("application/db.php");
     require_once("application/functions.php");
+    require_once("application/send_email.php");
+
     $register_button = $_POST["register_btn"];
     if(isset($register_button)) {
         // process only when submit button is clicked
@@ -40,7 +42,13 @@
                 {
                     if(save_data($user_details_information, TBL_OWNER_DETAILS, $database))
                     {
-                        echo "user account created";
+                        send_new_email
+                        (
+                            EMAIL_FROM_ADDRESS,
+                            $email,
+                            'Welcome to Pet Social Media, Please Verify Your Account',
+                            '<!doctype html><html lang="en"><head><meta charset="UTF-8"> <title>Welcome To Pet Social Media, Please Verify Your Account</title></head><body> <p>Hi,</p><p>We saw you have created your account in our website.</p><p><a href="'.BASE_URL.'verify.php?code=' . $user_login_information['verification'] .'">Please visit this link to verify your account</a> and get started</p><p>Cheers</p><p>Avinash Seth</p></body></html>'
+                        );
                     }
                     else
                     {

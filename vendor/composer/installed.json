@@ -1,17 +1,17 @@
 [
     {
         "name": "catfan/medoo",
-        "version": "v1.0.2",
-        "version_normalized": "1.0.2.0",
+        "version": "v1.1.2",
+        "version_normalized": "1.1.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/catfan/Medoo.git",
-            "reference": "342e2d6a3bcf4adcac58e67593d63547139ab1ac"
+            "reference": "d845b50455893d931ee6a86e1a17276847764385"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/catfan/Medoo/zipball/342e2d6a3bcf4adcac58e67593d63547139ab1ac",
-            "reference": "342e2d6a3bcf4adcac58e67593d63547139ab1ac",
+            "url": "https://api.github.com/repos/catfan/Medoo/zipball/d845b50455893d931ee6a86e1a17276847764385",
+            "reference": "d845b50455893d931ee6a86e1a17276847764385",
             "shasum": ""
         },
         "require": {
@@ -26,7 +26,7 @@
             "ext-pdo_sqlite": "For SQLite databases",
             "ext-pdo_sqlsrv": "For MSSQL databases on Windows platform"
         },
-        "time": "2016-02-14 16:03:42",
+        "time": "2016-07-07 17:58:29",
         "type": "framework",
         "installation-source": "dist",
         "autoload": {
@@ -55,5 +55,67 @@
             "sql",
             "sqlite"
         ]
+    },
+    {
+        "name": "phpmailer/phpmailer",
+        "version": "v5.2.16",
+        "version_normalized": "5.2.16.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PHPMailer/PHPMailer.git",
+            "reference": "1d85f9ef3ecfc42bbc4f3c70d5e37ca9a65f629a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/1d85f9ef3ecfc42bbc4f3c70d5e37ca9a65f629a",
+            "reference": "1d85f9ef3ecfc42bbc4f3c70d5e37ca9a65f629a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.0.0"
+        },
+        "require-dev": {
+            "phpdocumentor/phpdocumentor": "*",
+            "phpunit/phpunit": "4.7.*"
+        },
+        "suggest": {
+            "league/oauth2-google": "Needed for Google XOAUTH2 authentication"
+        },
+        "time": "2016-06-06 09:09:37",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "class.phpmailer.php",
+                "class.phpmaileroauth.php",
+                "class.phpmaileroauthgoogle.php",
+                "class.smtp.php",
+                "class.pop3.php",
+                "extras/EasyPeasyICS.php",
+                "extras/ntlm_sasl_client.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "Jim Jagielski",
+                "email": "jimjag@gmail.com"
+            },
+            {
+                "name": "Marcus Bointon",
+                "email": "phpmailer@synchromedia.co.uk"
+            },
+            {
+                "name": "Andy Prevost",
+                "email": "codeworxtech@users.sourceforge.net"
+            },
+            {
+                "name": "Brent R. Matzelle"
+            }
+        ],
+        "description": "PHPMailer is a full-featured email creation and transfer class for PHP"
     }
 ]
