@@ -4,11 +4,6 @@
     <list default="true" id="d3713eaa-ea00-4935-b16d-710ee14dc95c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/constants.php" afterPath="$PROJECT_DIR$/application/constants.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
     </list>
     <ignored path="psm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -249,12 +244,12 @@
       <workItem from="1467619333805" duration="2008000" />
       <workItem from="1467703022824" duration="15000" />
       <workItem from="1468304447753" duration="3218000" />
-      <workItem from="1468577420799" duration="1224000" />
+      <workItem from="1468577420799" duration="1245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17876000" />
+    <option name="totallyTimeSpent" value="17897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="365" y="115" width="1283" height="723" extended-state="0" />
