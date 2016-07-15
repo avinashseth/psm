@@ -1,6 +1,5 @@
 <?php
     require_once __DIR__ . '/../vendor/autoload.php';
-    require_once __DIR__ . '/../secret_passwords.php';
 
     $dotenv = new Dotenv\Dotenv(__DIR__ . '/../');
     $dotenv->load();
