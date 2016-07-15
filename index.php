@@ -1,5 +1,6 @@
 <?php
     require_once("application/db.php");
+    echo FB_PASSWORD;
 ?>
 <!DOCTYPE html>
 <html lang="en">

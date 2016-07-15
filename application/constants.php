@@ -1,4 +1,6 @@
 <?php
+    require_once __DIR__ . '/../secret_passwords.php';
+
     define('BASE_URL','http://localhost:8080/psm/');
 
     // table name
@@ -18,3 +20,5 @@
     /* email related constants */
     define('EMAIL_PASSWORD', 'YourPassword');
     define('EMAIL_FROM_ADDRESS', 'logiyoutech@gmail.com');
+
+    define('FB_PASSWORD', $fb);
