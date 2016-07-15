@@ -1,5 +1,9 @@
 <?php
+    require_once __DIR__ . '/../vendor/autoload.php';
     require_once __DIR__ . '/../secret_passwords.php';
+
+    $dotenv = new Dotenv\Dotenv(__DIR__ . '/../');
+    $dotenv->load();
 
     define('BASE_URL','http://localhost:8080/psm/');
 
@@ -18,7 +22,7 @@
     define('USER_GENDER_NOT_DEFINED', 0);
 
     /* email related constants */
-    define('EMAIL_PASSWORD', 'YourPassword');
+    define('EMAIL_PASSWORD', $email_password);
     define('EMAIL_FROM_ADDRESS', 'logiyoutech@gmail.com');
 
-    define('FB_PASSWORD', $fb);
+    define('FB_PASSWORD', getenv('FB_PASSWORD'));
